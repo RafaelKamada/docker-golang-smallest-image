@@ -10,4 +10,4 @@ FROM scratch
 
 COPY --from=builder /main .
 
-CMD ["./main"]
+CMD ["./main" , "  --publish 8080:8080"]
